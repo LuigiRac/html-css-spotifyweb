@@ -1,0 +1,56 @@
+/* Custom proprieties */
+:root {
+    --color-dark: #141922;
+    --color-darkgrey: #282828;
+    --color-light: #ffffff;
+    --color-black: #000000;
+    --color-lightgrey: #c1c1c1;
+    --color-highlight: #9ae22d;
+    --color-red: #ca1717;
+
+}
+
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.debug {
+    border: 1px solid red;
+}
+
+/* Generals */
+body {
+    background-color: var(--color-darkgrey);
+}
+
+.wrapper{
+    background-color: var(--color-darkgrey);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.upper-content{
+    background-color: var(--color-dark);
+    flex: 1 1 auto;
+}
+
+
+
+/* FOOTER */
+footer {
+    background-color: var(--color-darkgrey);
+    flex: 0 0 100px;
+}
+
+
+
+/* Flex utility */
+/********************************
+DESKTOP FIRST
+*********************************/
+
