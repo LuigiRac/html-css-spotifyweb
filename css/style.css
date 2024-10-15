@@ -59,6 +59,11 @@ a {
     color: var(--color-lightgrey);
 }
 
+a:hover {
+    text-decoration: underline;
+    color: var(--color-highlight);
+}
+
 /********************************
 PLAYBAR
 *********************************/
@@ -122,6 +127,10 @@ main {
 
 .text-album {
     text-align: center;
+}
+
+.radius {
+    border-radius: 85px;
 }
 
             /* Album img */
