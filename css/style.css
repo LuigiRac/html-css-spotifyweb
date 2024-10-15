@@ -25,31 +25,53 @@
 /* Generals */
 body {
     background-color: var(--color-darkgrey);
+    color: var(--color-light);
 }
 
 .wrapper{
     background-color: var(--color-darkgrey);
     height: 100vh;
-    display: flex;
-    flex-direction: column;
 }
 
 .upper-content{
     background-color: var(--color-dark);
     flex: 1 1 auto;
+    overflow-y: auto;
 }
 
 
-
-/* FOOTER */
+/********************************
+PLAYBAR
+*********************************/
 footer {
     background-color: var(--color-darkgrey);
     flex: 0 0 100px;
 }
 
 
+/********************************
+SIDEBAR
+*********************************/
+#sidebar {
+    flex: 0 0 230px;
+    background-color: var(--color-black);
+}
+
+
+/* main */
+main {
+    flex: 1 1 auto;
+    overflow-y: auto;
+}
 
 /* Flex utility */
+.d-flex {
+    display: flex;
+}
+
+.d-column {
+    flex-direction: column;
+}
 /********************************
 DESKTOP FIRST
 *********************************/
