@@ -39,6 +39,18 @@ body {
     overflow-y: auto;
 }
 
+.pad {
+    padding: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-lightgrey);
+}
 
 /********************************
 PLAYBAR
@@ -64,6 +76,25 @@ main {
     overflow-y: auto;
 }
 
+.header {
+    background-color: rgba(0,  0, 0, 0.5);
+    height: 80px;
+}
+
+.btn {
+    background-color: var(--color-highlight);
+    color: var(--color-light);
+    border: 1px solid white;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 8px;
+    position: absolute;
+    right: 0;
+}
+
+
+
+
 /* Flex utility */
 .d-flex {
     display: flex;
@@ -71,6 +102,20 @@ main {
 
 .d-column {
     flex-direction: column;
+}
+
+.center {
+    justify-content: center;
+}
+
+.gap-navbar{
+    gap: 10px;
+}
+
+
+/* Position utility */
+.position {
+    position: relative;
 }
 /********************************
 DESKTOP FIRST
