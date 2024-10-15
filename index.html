@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Spotify</title>
 </head>
@@ -15,16 +19,15 @@
             <div id="sidebar" class="debug"></div>
 
             <main class="debug">
-                <div class="header position pad debug">
-                    <div class="d-flex">
-                        <a class="d-flex btn" href="#">EFFETTUA L'UPGRADE</a>
-                    </div>
+                <div class="header position pad debug"></div>
+                <div class="d-flex">
+                    <a class="d-flex btn" href="#">EFFETTUA L'UPGRADE</a>
                 </div>
 
 
             <!-- BARRA DI NAVIGAZIONE -->
                 <nav>
-                    <ul class="d-flex center gap-navbar">
+                    <ul class="d-flex center navbar font">
                         <li>
                             <a href="#">IN EVIDENZA</a>
                         </li>
@@ -52,17 +55,21 @@
                 </nav>
 
 
-            <!-- ALBUMS -->
+            <!-- ALBUM -->
                 <div class="debug">
 
-                    <div class=" container debug">
-                        <h2>Recently played</h2>
+                    <div class="debug">
+                        <div class="pad-album1">
+                            <h2>Recently played</h2>
+                        </div>
+                        
 
-                        <div class=" row d-flex debug">
+                        <div class=" row d-flex gap-album text-album  pad-bottom debug">
 
+                            <!-- HEAVY METAL -->
                             <div class=" col d-flex debug">
                                 <div class="album-img">
-                                    <img src="img/metal_lifting.jpg" alt="">
+                                    <img src="img/metal_lifting.jpg" alt="metal">
 
                                     <div class="btn-container">
                                         <div class="btn-album">
@@ -78,10 +85,170 @@
                                     <h4 class="album-author">Subtitle</h4>
                                 </div>
                             </div>
-                        </div>
-                    </div>
 
-                    
+
+                            <!-- STRANGER THINGS -->
+                            <div class=" col d-flex debug">
+                                <div class="album-img">
+                                    <img src="img/stranger.jpeg" alt="stranger thing">
+
+                                    <div class="btn-container">
+                                        <div class="btn-album">
+                                             <i class="fa-regular fa-circle-play" style="color: #ffffff;"></i>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                               
+
+                                <div>
+                                    <h3 class="album-title">Stranger thing Vol.1 (A netflix original soundtrack)</h3>
+                                    <h4 class="album-author">Kyle Dixon & Michael Stein</h4>
+                                </div>
+                            </div>
+
+
+                            <!-- A QUIET PLACE -->
+                            <div class=" col d-flex debug">
+                                <div class="album-img">
+                                    <img src="img/aquietplace.jpeg" alt="quiet place">
+
+                                    <div class="btn-container">
+                                        <div class="btn-album">
+                                             <i class="fa-regular fa-circle-play" style="color: #ffffff;"></i>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                               
+
+                                <div>
+                                    <h3 class="album-title">A quiet place</h3>
+                                    <h4 class="album-author">Subtitle</h4>
+                                </div>
+                            </div> 
+
+
+                            <!-- SPLIT -->
+                            <div class=" col d-flex debug">
+                                <div class="album-img">
+                                    <img src="img/split.jpeg" alt="split">
+
+                                    <div class="btn-container">
+                                        <div class="btn-album">
+                                             <i class="fa-regular fa-circle-play" style="color: #ffffff;"></i>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                               
+
+                                <div>
+                                    <h3 class="album-title">Split</h3>
+                                    <h4 class="album-author">Subtitle</h4>
+                                </div>
+                            </div>
+                            
+                            
+                            <!-- A CURE FOR WELLNESS -->
+                            <div class=" col d-flex debug">
+                                <div class="album-img">
+                                    <img src="img/cure.jpeg" alt="Wellness">
+
+                                    <div class="btn-container">
+                                        <div class="btn-album">
+                                             <i class="fa-regular fa-circle-play" style="color: #ffffff;"></i>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                               
+
+                                <div>
+                                    <h3 class="album-title">A cure for wellness</h3>
+                                    <h4 class="album-author">Subtitle</h4>
+                                </div>
+                            </div>
+                            
+                            
+                            <!-- SINISTER -->
+                            <div class=" col d-flex debug">
+                                <div class="album-img">
+                                    <img src="img/sinister.jpeg" alt="Sinister">
+
+                                    <div class="btn-container">
+                                        <div class="btn-album">
+                                             <i class="fa-regular fa-circle-play" style="color: #ffffff;"></i>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                               
+
+                                <div>
+                                    <h3 class="album-title">Sinister</h3>
+                                    <h4 class="album-author">Subtitle</h4>
+                                </div>
+                            </div> 
+                        </div>
+                    </div> 
+
+
+                    <!-- ALBUM 1-->
+                    <div class="debug">
+                        <div class="pad-album2">
+                            <h2>Creato per John Doe</h2>
+                        </div>
+                        <div>
+                            <h4 class="album-author pad-bott">Più ascolti, più accurati saranno i tuoi suggerimenti</h4>
+                        </div>
+                        
+
+                        <div class=" row d-flex gap-album text-album pad-album debug">
+
+                            <!-- RELASE RADAR -->
+                            <div class=" col d-flex debug">
+                                <div class="album-img">
+                                    <img src="img/radar.jpeg" alt="relase">
+
+                                    <div class="btn-container">
+                                        <div class="btn-album">
+                                             <i class="fa-regular fa-circle-play" style="color: #ffffff;"></i>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                               
+
+                                <div>
+                                    <h3 class="album-title">Relase radar</h3>
+                                </div>
+                            </div> 
+
+
+                            <!-- DAILY MIX 1 -->
+                            <div class=" col d-flex debug">
+                                <div class="album-img">
+                                    <img src="img/mixdaily.jpeg" alt="mix">
+
+                                    <div class="btn-container">
+                                        <div class="btn-album">
+                                             <i class="fa-regular fa-circle-play" style="color: #ffffff;"></i>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                               
+
+                                <div>
+                                    <h3 class="album-title">Daily Mix 1</h3>
+                                </div>
+                            </div> 
+
+
+                            
+                            
+
                 </div>
             </main>
         </div>

@@ -10,6 +10,8 @@
 
 }
 
+/* Google font */
+
 
 /* Reset */
 * {
@@ -18,14 +20,19 @@
     box-sizing: border-box;
 }
 
-.debug {
+/* .debug {
     border: 1px solid red;
-}
+} */
 
 /* Generals */
 body {
     background-color: var(--color-darkgrey);
     color: var(--color-light);
+    
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 15px;
+    font-style: normal;
 }
 
 .wrapper{
@@ -74,30 +81,70 @@ SIDEBAR
 main {
     flex: 1 1 auto;
     overflow-y: auto;
+    padding-left: 20px;
 }
 
 .header {
-    background-color: rgba(0,  0, 0, 0.5);
+    background-color: #090B12;
+    opacity: 0.5;
     height: 80px;
 }
 
+
+/* BARRA DI NAVIGAZIONE INIZIO */
+.navbar{
+    gap: 15px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 20px 0 10px;
+    
+}
+/* BARRA DI NAVIGAZIONE FINE */
+
+
+/* ALBUM INIZIO */
+.pad-album1 {
+    padding-bottom: 30px;
+}
+
+.pad-album2 {
+    padding-bottom: 15px;
+    padding-top: 40px;
+}
+
+.pad-bott {
+    padding-bottom: 20px;
+}
+
+.gap-album {
+    gap:15px
+}
+
+.text-album {
+    text-align: center;
+}
+
+            /* Album img */
 .album-img {
-    width: 150px;
+    width: 170px;
     position: relative;
 }
 
 .album-img img {
     width: 100%;
 }
-
-/* .album-title {
-
+             /* Album title & Author */
+.album-title {
+    font-size: 15px;
+    padding: 10px 0 10px;
+    width: 170px;
 }
 
 
 .album-author {
-
-} */
+    font-size: 12px;
+    color: var(--color-lightgrey);
+} 
 
 .btn-container {
     display: none;
@@ -126,16 +173,21 @@ main {
     transform: translate(-50%, -50%);
     font-size: 50px;
 }
+/* ALBUM FINE */
+
 
 .btn {
-    background-color: var(--color-highlight);
+    background-color: transparent;
     color: var(--color-light);
     border: 1px solid white;
+    font-weight: bold;
     border-radius: 20px;
     text-decoration: none;
-    padding: 8px;
+    padding: 10px 30px;
     position: absolute;
-    right: 0;
+    right: 10px;
+    top: 15px;
+    font-size: 10px;
 }
 
 .row {
@@ -159,9 +211,7 @@ main {
     justify-content: center;
 }
 
-.gap-navbar{
-    gap: 10px;
-}
+
 
 
 /* Position utility */
