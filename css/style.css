@@ -11,7 +11,10 @@
 }
 
 /* Google font */
-
+/* font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 15px;
+    font-style: normal; */
 
 /* Reset */
 * {
@@ -20,9 +23,9 @@
     box-sizing: border-box;
 }
 
-/* .debug {
+.debug {
     border: 1px solid red;
-} */
+}
 
 /* Generals */
 body {
@@ -59,7 +62,7 @@ a {
     color: var(--color-lightgrey);
 }
 
-a:hover {
+a:hover, a:active {
     text-decoration: underline;
     color: var(--color-highlight);
 }
@@ -82,6 +85,10 @@ SIDEBAR
 }
 
 
+/* #sidebar .main-nav a {
+    border-left: 3px solid var(--color-highlight)
+} */
+
 /* main */
 main {
     flex: 1 1 auto;
@@ -91,8 +98,10 @@ main {
 
 .header {
     background-color: #090B12;
+    position: fixed;
     opacity: 0.5;
     height: 80px;
+    z-index: 2000;
 }
 
 
@@ -104,6 +113,7 @@ main {
     padding: 20px 0 10px;
     
 }
+
 /* BARRA DI NAVIGAZIONE FINE */
 
 
@@ -131,6 +141,7 @@ main {
 
 .radius {
     border-radius: 85px;
+    overflow: hidden;
 }
 
             /* Album img */
@@ -197,6 +208,7 @@ main {
     right: 10px;
     top: 15px;
     font-size: 10px;
+    
 }
 
 .row {
