@@ -178,6 +178,7 @@ SIDEBAR BOTTOM
     background-color: var(--color-darkgrey);
 }
 
+
 /* main */
 main {
     flex: 1 1 auto;
@@ -193,8 +194,9 @@ main {
     width: 100%
 }
 
+
 .link-zoom {
-    color: blue;
+    color: rgb(255, 255, 255);
     transition: transform .3s ease;
   }
 
