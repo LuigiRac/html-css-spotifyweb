@@ -23,9 +23,9 @@
     box-sizing: border-box;
 }
 
-/* .debug {
+.debug {
     border: 1px solid red;
-} */
+}
 
 /* Generals */
 body {
@@ -96,6 +96,23 @@ PLAYBAR
 footer {
     background-color: var(--color-darkgrey);
     flex: 0 0 100px;
+}
+
+#playbar {
+    height: 100%;
+    width: 100%;
+}
+
+.playbar-left, 
+.playbar-right {
+    width: 230px;
+    padding: 10px;
+    height: 100%;
+}
+
+.playbar-center {
+    width: 40%;
+    height: 100%;
 }
 
 
@@ -175,10 +192,31 @@ SIDEBAR BOTTOM
 
 .sidebar-bottom {
     height: 90px;
-    background-color: var(--color-darkgrey);
+    background-color: var(--color-black);
+    position: fixed;
+    width: 230px;
 }
 
+.app-pad {
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+}
+hr {
+    border: 0.5px solid var(--color-lightgrey); 
+    width: 80%;
+    margin: 0px 15px;
+}
 
+.profile {
+    background-color: var(--color-lightgrey);
+    border-radius: 50%; 
+}
+
+.doe {
+    padding: 0 10px;
+    font-weight: bold;
+}
 /* main */
 main {
     flex: 1 1 auto;
@@ -327,6 +365,12 @@ main {
 /* ALBUM FINE */
 
 
+/********************************
+PLAYBAR
+*********************************/
+
+
+
 .btn {
     background-color: transparent;
     border: 1px solid white;
@@ -364,6 +408,10 @@ main {
 
 .center-alg {
     align-items: center;
+}
+
+.j-bet{
+    justify-content: space-between;
 }
 
 
