@@ -23,9 +23,9 @@
     box-sizing: border-box;
 }
 
-.debug {
+/* .debug {
     border: 1px solid red;
-}
+} */
 
 /* Generals */
 body {
@@ -115,9 +115,53 @@ footer {
     height: 100%;
 }
 
-.playbar-center .playbar-icons ul {
-    
+.playbar-center .playbar-icons {
+    height: 60%;
 }
+
+.playbar-center .playbar-icons ul {
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-size: 20px;
+}
+
+.playbar-center .playbar-icons ul li :hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.circle-play {
+    font-size: 34px;
+}
+
+.playbar-time {
+    height: 40%;
+}
+
+.music {
+    flex-grow: 1;
+    width: 100%;
+}
+
+.music input {
+    width: 100%;
+}
+
+input[type="range"] {
+    accent-color: var(--color-lightgrey);
+}
+
+input:hover {
+    color:var(--color-highlight);
+}
+.time-pad {
+    padding: 10px;
+}
+
+
+
 /********************************
 SIDEBAR
 *********************************/

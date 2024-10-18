@@ -403,18 +403,26 @@
             <div id="playbar" class="d-flex j-bet center-alg ">
                 <div class="playbar-left debug"> </div>
                 <div class="playbar-center debug">
-                    <div class="playbar-icons">
+                    <div class="playbar-icons debug">
                         <ul class="d-flex">
                             <li> <i class="fa-solid fa-shuffle" style="color: #ffffff;"></i></li>
                             <li><i class="fa-solid fa-backward-step" style="color: #ffffff;"></i></li>
-                            <li><i class="fa-regular fa-circle-play" style="color: #ffffff;"></i></li>
+                            <li class="circle-play"><i class="fa-regular fa-circle-play" style="color: #ffffff;"></i></li>
                             <li><i class="fa-solid fa-forward-step" style="color: #ffffff;"></i></li>
                             <li><i class="fa-solid fa-rotate-right" style="color: #ffffff;"></i></li>
                         </ul>
                     </div>
-                    <div class="playbar-time"></div>
+                    <div class="playbar-time d-flex j-bet center-alg">
+                        <div class="time-pad debug">0.25</div>
+
+                        <div class="music"> 
+                            <input type="range" value="12" min="0" max="100">
+                        </div>
+                            
+                        <div class="time-pad debug">4.35</div>
+                    </div>
                 </div>
-                <div class="palybar-right debug"></div>
+                <div class="palybar-right debug"> aaa</div>
             </div>
         </footer>
     </div>
