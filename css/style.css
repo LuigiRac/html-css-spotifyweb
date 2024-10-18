@@ -536,13 +536,13 @@ PLAYBAR
 RESPONSIVE
 *********************************/
 
-/* LARGE */
+/* LARGE 1440x1100*/
 @media (min-width: 1200px) {
     
 }
 
 
-/* MEDIUM */
+/* MEDIUM 878x1095*/
 @media (min-width: 992px) and (max-width: 1199px) {
     
 }
