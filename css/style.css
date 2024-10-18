@@ -136,6 +136,22 @@ footer {
     font-size: 34px;
 }
 
+/* Play-pause inizio 
+.circle-play {
+    cursor: pointer;
+    transition: transform 0.2s;
+    font-size: 34px;
+}
+
+.circle-play:hover {
+    transform: scale(1.1);
+}
+
+.is-playing .circle-play i {
+    content: f28b;
+}
+/* Play-pause fine */
+
 .playbar-time {
     height: 40%;
 }
@@ -517,6 +533,29 @@ PLAYBAR
 } */
 
 /********************************
-DESKTOP FIRST
+RESPONSIVE
 *********************************/
+
+/* LARGE */
+@media (min-width: 1200px) {
+    
+}
+
+
+/* MEDIUM */
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+}
+
+
+/* SMALL */
+@media (min-width: 768px) and (max-width: 991px) {
+    
+}
+
+
+/* EXTRA SMALL */
+@media (max-width: 767px) {
+    
+}
 
