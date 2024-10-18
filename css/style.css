@@ -161,14 +161,14 @@ input:hover {
 }
 
 .playbar-left img {
-    width: 17%;
+    width: 20%;
     position: relative;
     top: 30%;
 }
 
 .play-sinister {
     position: relative;
-    left: 40px;
+    left: 50px;
     bottom: 7px;
     font-size: 12px;
 }
@@ -176,23 +176,38 @@ input:hover {
 
 .play-name {
     position: relative;
-    left: 40px;
+    left: 50px;
     bottom: 7px;
     font-size: 9px;
 }
 
-.play-link {
+.play-left-link {
     position: relative;
     left: 120px;
     bottom: 22px;
     font-size: 15px;
 }
-/* .playbar-left a {
-    width: 87px;
-    position: absolute;
-    left: 87px;
-    bottom: 30px;
-} */
+
+.play-right-link {
+    font-size: 15px;
+}
+
+.play-right-link ul{
+    gap: 10px;
+}
+
+.play-right-pad15 {
+    padding-right: 15px;
+}
+
+.play-right-pad30 {
+    padding-right: 30px;
+}
+
+.play-left-pad20 {
+    padding-left: 20px;
+}
+
 /********************************
 SIDEBAR
 *********************************/
