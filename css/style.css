@@ -603,7 +603,12 @@ RESPONSIVE
         gap: 0px;
     }
 
-    /* .music input {
-        width: 50px;
-    } */
+    #playbar {
+        gap: 10px;
+        height: auto;
+    }
+    
+
+    /* Main */
+    
 } 
