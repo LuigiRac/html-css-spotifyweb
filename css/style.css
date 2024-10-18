@@ -136,21 +136,6 @@ footer {
     font-size: 34px;
 }
 
-/* Play-pause inizio 
-.circle-play {
-    cursor: pointer;
-    transition: transform 0.2s;
-    font-size: 34px;
-}
-
-.circle-play:hover {
-    transform: scale(1.1);
-}
-
-.is-playing .circle-play i {
-    content: f28b;
-}
-/* Play-pause fine */
 
 .playbar-time {
     height: 40%;
@@ -220,7 +205,7 @@ input:hover {
     padding-right: 30px;
 }
 
-.play-left-pad20 {
+.play-right-pad20 {
     padding-left: 20px;
 }
 
@@ -251,6 +236,13 @@ SIDEBAR TOP
     width: 150px;
 }
 
+.logo-large {
+    display: block;
+}
+
+.logo-small {
+    display: none;
+}
 .main-nav {
     padding: 0px 15px;
 }
@@ -477,11 +469,6 @@ main {
 /* ALBUM FINE */
 
 
-/********************************
-PLAYBAR
-*********************************/
-
-
 
 .btn {
     background-color: transparent;
@@ -527,10 +514,7 @@ PLAYBAR
 }
 
 
-/* Position utility */
-/* .position {
-    position: relative;
-} */
+
 
 /********************************
 RESPONSIVE
@@ -554,12 +538,72 @@ RESPONSIVE
 @media screen and (max-width:639px) {
     #menu  {
         flex-wrap: wrap;
+       
     }
 }
 
 
 /* EXTRA SMALL */
-@media (max-width: 767px) {
-    
-}
+@media screen and (max-width: 552px) {
 
+    /* Sidebar */
+    .logo-large{
+        display: none;
+    }
+
+    .logo-small {
+        display: block;
+        width: 35px;
+        padding-left: 4px;
+    }
+
+
+    #sidebar{
+        max-width: 70px;
+    }
+
+    #sidebar span {
+        display: none;
+    }
+
+    #sidebar #playlist {
+        display: none;
+    }
+
+    .sidebar-bottom{
+        width: auto;
+        padding-left: 10px;
+    }
+
+    .sidebar-bottom span {
+        display: none;
+    }
+    .sidebar-bottom hr{
+        display: none;
+    }
+
+    /* Playbar */
+
+    .play-left-link {
+        left: 75px;
+        display: flex;
+        flex-direction: column;
+        bottom: 40px;
+    }
+    .play-sinister {
+        top: 5px;
+    }
+
+    .play-name {
+        top: 5px;
+        width: 100px;
+    }
+
+    .play-right-link ul {
+        gap: 0px;
+    }
+
+    /* .music input {
+        width: 50px;
+    } */
+} 
