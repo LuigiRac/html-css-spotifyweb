@@ -543,8 +543,14 @@ RESPONSIVE
 
 
 /* MEDIUM 878x1095*/
-@media (min-width: 992px) and (max-width: 1199px) {
+@media screen and (max-width: 878px) {
+    .wrapper {
+        flex-direction: column;
+    }
     
+    #album {
+        flex-wrap: wrap;
+    }
 }
 
 
