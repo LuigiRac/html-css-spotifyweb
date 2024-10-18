@@ -23,9 +23,9 @@
     box-sizing: border-box;
 }
 
-/* .debug {
+.debug {
     border: 1px solid red;
-} */
+}
 
 /* Generals */
 body {
@@ -160,8 +160,39 @@ input:hover {
     padding: 10px;
 }
 
+.playbar-left img {
+    width: 17%;
+    position: relative;
+    top: 30%;
+}
+
+.play-sinister {
+    position: relative;
+    left: 40px;
+    bottom: 7px;
+    font-size: 12px;
+}
 
 
+.play-name {
+    position: relative;
+    left: 40px;
+    bottom: 7px;
+    font-size: 9px;
+}
+
+.play-link {
+    position: relative;
+    left: 120px;
+    bottom: 22px;
+    font-size: 15px;
+}
+/* .playbar-left a {
+    width: 87px;
+    position: absolute;
+    left: 87px;
+    bottom: 30px;
+} */
 /********************************
 SIDEBAR
 *********************************/
@@ -263,7 +294,11 @@ hr {
     padding: 0 10px;
     font-weight: bold;
 }
-/* main */
+
+
+/********************************
+MAIN
+*********************************/
 main {
     flex: 1 1 auto;
     overflow-y: auto;
