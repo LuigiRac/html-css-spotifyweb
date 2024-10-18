@@ -536,11 +536,6 @@ PLAYBAR
 RESPONSIVE
 *********************************/
 
-/* LARGE 1440x1100*/
-@media (min-width: 1200px) {
-    
-}
-
 
 /* MEDIUM 878x1095*/
 @media screen and (max-width: 878px) {
@@ -550,13 +545,16 @@ RESPONSIVE
     
     #album {
         flex-wrap: wrap;
+        
     }
 }
 
 
 /* SMALL */
-@media (min-width: 768px) and (max-width: 991px) {
-    
+@media screen and (max-width:639px) {
+    #menu  {
+        flex-wrap: wrap;
+    }
 }
 
 
