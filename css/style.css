@@ -474,6 +474,10 @@ main {
     background-color: transparent;
     border: 1px solid white;
     border-radius: 20px;
+
+
+
+    
 }
 
 .row {
@@ -599,8 +603,4 @@ RESPONSIVE
         gap: 10px;
         height: auto;
     }
-    
-
-    /* Main */
-    
 } 
