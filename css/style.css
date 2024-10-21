@@ -474,14 +474,6 @@ main {
     background-color: transparent;
     border: 1px solid white;
     border-radius: 20px;
-    text-decoration: none;
-    padding: 10px 30px;
-    position: fixed;
-    right: 1%;
-    top: 2%;
-    font-size: 10px;
-    
-    
 }
 
 .row {
